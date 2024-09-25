@@ -8,19 +8,30 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Expert from "./pages/Expert";
 import Work from "./pages/Work";
-import 'boxicons/css/boxicons.min.css';
+import "boxicons/css/boxicons.min.css";
 import Footer from "./pages/Footer";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+      once: true,
+    });
+  }, []);
+
   return (
     <div className="App">
       <Header />
       <Hero />
-      <About/>
+      <About />
       {/* <Services/> */}
-      <Work/>
-      <Expert/>
-      <Footer/>
+      <Work />
+      <Expert />
+      <Footer />
     </div>
   );
 }
