@@ -345,3 +345,6 @@
     line-height: 1.6;
   }
 }
+.navbar-toggler{
+  filter: invert(1);
+}

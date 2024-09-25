@@ -73,7 +73,7 @@ const Hero = () => {
   }, []);
   return (
     <>
-      <section className="section-hero py-lg-4" style={heroBG}>
+      <section className="section-hero py-4" style={heroBG}>
         <div id="dark"></div>
         <div className="container">
           <div className="row">
