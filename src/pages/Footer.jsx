@@ -14,7 +14,7 @@ const Footer = () => {
       <section className="section-footer py-5" style={footerBg}>
         <div className="container">
           <div className="row">
-            <div className="col-6 col-lg-4">
+            <div className="col-12 col-lg-4">
               <h5>Our Office</h5>
               <ul>
                 <li>
@@ -37,16 +37,17 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-6 col-lg-4">
+
+            <div className="col-12 col-lg-4">
               <h5>Services</h5>
-              <div className="d-flex flex-column flex-lg-row">
+              <div className="d-flex">
                 <ul>
-                  <li>Estate Planning Solution</li>
                   <li>Tax saving Solution</li>
                   <li>RRSP Investment</li>
                   <li>TFSA Investment</li>
                   <li>FHSA Investment</li>
                   <li>Other Investments</li>
+                  <li>Estate Planning Solution</li>
                 </ul>
                 <ul>
                   <li>RESP for Children</li>
@@ -58,7 +59,7 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-6 col-lg-4">
+            <div className="col-12 col-lg-4">
               <h5>Quick Links</h5>
               <ul>
                 <li>Home</li>

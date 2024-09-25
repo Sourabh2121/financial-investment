@@ -77,7 +77,7 @@ const Hero = () => {
         <div id="dark"></div>
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 my-auto">
+            <div className="col-lg-6 my-auto" data-aos="zoom-in">
               <h1 className="fw-bold  head-text-shadow display-4 text-white">
                 Start Investments with a{" "}
                 <span>

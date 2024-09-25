@@ -3,12 +3,12 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <section className="mt-lg-5 about-section py-lg-4">
+      <section className="mt-lg-5 about-section py-4">
         <div className="container">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6" data-aos="fade-up">
               <div className="about-us-image text-center">
-                <img src="/about.png" alt="" className="" />
+                <img src="/about.png" alt="" className="w-sm-100" />
               </div>
               <div class="since-year text-end">
                 <span className="display-3 fw-bold pe-3 text-secondary-theme">
@@ -17,7 +17,7 @@ const About = () => {
                 <strong className="display-2">2022</strong>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6" data-aos="fade-up">
               <div>
                 <h2 className="text-primary-theme display-6 fw-bold">
                   ABOUT US

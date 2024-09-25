@@ -2,7 +2,7 @@ import React from "react";
 
 const Expert = () => {
   return (
-    <section className="expert-section py-lg-4">
+    <section className="expert-section py-lg-4" data-aos="fade-up">
       <div className="container">
         <>
           <h2 className="text-primary-theme text-center display-6 fw-bold my-lg-5">
